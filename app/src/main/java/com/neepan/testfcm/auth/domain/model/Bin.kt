@@ -1,4 +1,4 @@
-package com.neepan.testfcm.domain.model
+package com.neepan.testfcm.auth.domain.model
 
 data class Bin(
     val uuid: Int,

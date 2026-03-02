@@ -1,9 +1,9 @@
-package com.neepan.testfcm.data.repository
+package com.neepan.testfcm.auth.data.repository
 
-import com.neepan.testfcm.data.dto.UserDto
-import com.neepan.testfcm.data.mapper.toDomainModel
-import com.neepan.testfcm.domain.model.User
-import com.neepan.testfcm.domain.repository.AuthRepository
+import com.neepan.testfcm.auth.data.dto.UserDto
+import com.neepan.testfcm.auth.data.mapper.toDomainModel
+import com.neepan.testfcm.auth.domain.model.User
+import com.neepan.testfcm.auth.domain.repository.AuthRepository
 import io.github.jan.supabase.SupabaseClient
 import io.github.jan.supabase.auth.auth
 import io.github.jan.supabase.auth.providers.builtin.Email

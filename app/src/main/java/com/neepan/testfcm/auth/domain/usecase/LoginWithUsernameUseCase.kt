@@ -1,7 +1,7 @@
-package com.neepan.testfcm.domain.usecase
+package com.neepan.testfcm.auth.domain.usecase
 
-import com.neepan.testfcm.domain.model.User
-import com.neepan.testfcm.domain.repository.AuthRepository
+import com.neepan.testfcm.auth.domain.model.User
+import com.neepan.testfcm.auth.domain.repository.AuthRepository
 
 class LoginWithUsernameUseCase(
     private val repository: AuthRepository //we pass the interface not the implementation

@@ -1,4 +1,4 @@
-package com.neepan.testfcm.data.dto
+package com.neepan.testfcm.auth.data.dto
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

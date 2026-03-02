@@ -1,6 +1,6 @@
-package com.neepan.testfcm.domain.repository
+package com.neepan.testfcm.auth.domain.repository
 
-import com.neepan.testfcm.domain.model.User
+import com.neepan.testfcm.auth.domain.model.User
 
 interface AuthRepository{
 
