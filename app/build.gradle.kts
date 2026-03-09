@@ -68,9 +68,13 @@ android {
 
 dependencies {
 
-    //dagger hilt
+    // 1. Your Core Hilt Engine (Keep this exactly as is!)
     implementation("com.google.dagger:hilt-android:2.59.2")
     ksp("com.google.dagger:hilt-android-compiler:2.59.2")
+
+    // 2. The Compose + Hilt Bridge (Add this to unlock hiltViewModel() )
+    implementation("androidx.hilt:hilt-navigation-compose:1.3.0")
+
 
 
     // Compose Navigation
